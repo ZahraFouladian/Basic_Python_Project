@@ -7,12 +7,14 @@ In a file called emojize.py, implement a program that prompts the user for a str
 
 # Frank, Ian and Glen’s Letters
 FIGlet, named after Frank, Ian, and Glen’s letters, is a program from the early 1990s for making large letters out of ordinary text, a form of ASCII art:
+```python
 
  _ _ _          _   _     _
 | (_) | _____  | |_| |__ (_)___
 | | | |/ / _ \ | __| '_ \| / __|
 | | |   <  __/ | |_| | | | \__ \
 |_|_|_|\_\___|  \__|_| |_|_|___/
+```
 Among the fonts supported by FIGlet are those at figlet.org/examples.html.
 
 FIGlet has since been ported to Python as a module called pyfiglet.
@@ -55,9 +57,13 @@ Adieu, adieu, to Liesl, Friedrich, Louisa, Kurt, Brigitta, Marta, and Gretl
 
 # Guessing Game
 I’m thinking of a number between 1 and 100…
+
 What is it?
+
 In a file called game.py, implement a program that:
+
 Prompts the user for a level, 
+
 . If the user does not input a positive integer, the program should prompt again.
 Randomly generates an integer between 1 and 
 , inclusive, using the random module.
